@@ -1,0 +1,106 @@
+
+
+:root {
+  --primary-color: white; /* forest green */
+  --secondary-color: #f4a261; /* warm sand */
+  --accent1-color: #264653; /* dark slate blue */
+  --accent2-color: #e9c46a; /* light golden yellow */
+  --heading-font: "Times New Roman", "Georgia", serif;
+  --body-font: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    transform: translateX(15px);
+  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--body-font);
+  color: var(--accent1-color);
+}
+header, main, footer {
+  width: 840px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+nav, p, section, article {
+  margin: 16px;
+  padding: 8px;
+}
+.socialmedia a {
+    text-decoration: none;
+}
+.hero {
+  position: relative;
+}
+.hero img {
+    display: block;
+    width: 95%;
+    height: auto;
+    transform: translateX(19px);
+  }
+h1 {
+  transform: translateX(65px);
+  height:50px ;
+  position: absolute;
+  top: 20px;
+  width: 80%;
+  padding: 16px;
+  text-align: center;
+  opacity: 0.8;
+  background-color: var(--accent1-color);
+  color:var(--primary-color); /* white text – make sure there is enough contrast with the background-color */
+}
+.hero article img {
+  float: right;
+  width: 125px;
+  transform: translateX(-13px);
+
+  
+}
+.hero article {
+    height: 80px;
+    position: relative;
+    bottom: 150px;
+    background-color: var(--accent1-color);
+    width: 80%;
+    transform: translateX(60px);
+}
+ article p {
+    transform: translateY(-15px);
+    color:var(--primary-color) ;
+ }
+ h2 {
+    background-color: var(--accent1-color);
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+section p{
+    background-color: none;
+    color:black;
+    position: relative;
+    bottom:100px ;
+}
+h3 {
+    text-align: center;
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+    position: relative;
+    bottom: 100px;
+}
+footer {
+    position: relative;
+    bottom: 60px;
+}
