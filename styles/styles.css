@@ -36,6 +36,11 @@ aside {
   width: 20rem;
   position: relative;
   text-align: center;
+  margin: 1rem;
+  background-color: var(--background-color);
+  padding: 1rem;
+
+  border: black;
   
 }
 aside h2{
