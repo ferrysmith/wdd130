@@ -43,64 +43,57 @@ nav, p, section, article {
 }
 .hero {
   position: relative;
+  max-width: 100%;
+  width: 100%;
+  overflow: hidden;
+
 }
 .hero img {
     display: block;
-    width: 95%;
+    width: 100%;
     height: auto;
-    transform: translateX(19px);
+    float: none;
+
+    
   }
 h1 {
-  transform: translateX(65px);
-  height:50px ;
+
   position: absolute;
   top: 20px;
-  width: 80%;
+  width: 100%;
   padding: 16px;
   text-align: center;
-  opacity: 0.8;
+  opacity: 0.7;
   background-color: var(--accent1-color);
   color:var(--primary-color); /* white text – make sure there is enough contrast with the background-color */
+}
+.hero article {
+  position: absolute;
+  background-color: var(--accent1-color);
+  /* transform: translateY(-170px); */
+  width: 85%;
+  bottom: 250px;
+  left:48px;
+  height: auto;
+  
+}
+article p {
+  color: white;
+  transform: translateY(-15px);
+
+
 }
 .hero article img {
   float: right;
   width: 125px;
-  transform: translateX(-13px);
-
+}
+.hero section h2{
+  background-color: var(--accent1-color);
+  width: 100%;
+  height: auto;
+  inset: 0;
+  text-align: center;
   
-}
-.hero article {
-    height: 80px;
-    position: relative;
-    bottom: 150px;
-    background-color: var(--accent1-color);
-    width: 80%;
-    transform: translateX(60px);
-}
- article p {
-    transform: translateY(-15px);
-    color:var(--primary-color) ;
- }
- h2 {
-    background-color: var(--accent1-color);
-    text-align: center;
-    position: relative;
-    bottom: 100px;
-}
-section p{
-    background-color: none;
-    color:black;
-    position: relative;
-    bottom:100px ;
-}
-h3 {
-    text-align: center;
-    background-color: var(--accent1-color);
-    color: var(--primary-color);
-    position: relative;
-    bottom: 100px;
-}
-footer {
-    position: relative;
-    bottom: 60px;
+  
+
 }
