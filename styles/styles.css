@@ -1,20 +1,49 @@
+/* :root {
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --font-size-large: 24px;
+  --margin-standard: 16px;
+  --background-color:rgb(138, 141, 100);
+  --heading-text-color:darkgreen;
+  --image-border:1px solid rgb(0 0 0 / 0.2); 
+  --image-box-shadow:0 0 30px gray;
+  --text-color:black;
+  --href-color:white;
+  
+} */
 
 * {
     margin: 0;
     padding: 0;
     box-sizing:border-box;
 }
+
+header, .grid, footer {
+    max-width: 840px;
+    margin: auto;
+}
+body {
+    font-size: 16px;
+    font-family:'Times New Roman', Times, serif ;
+}
 nav {
     background-color: var(--background-color);
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 nav a {
     color: var(--href-color);
     display: block;
-    padding: 20px;
+    padding: 20p;
+    text-decoration: none;
+    /* font-size: 0.2rem; */
+    font-weight: 700px;
 }
 h1 {
     color: var(--heading-text-color);
+    border-bottom: 2px solid gray;
 }
 img {
     width: 150px;
@@ -23,25 +52,30 @@ img {
     padding: 2px;
     box-shadow: var(--image-box-shadow);
 }
-
-main {
-    max-width: 740px;
-}
-main p {
+/* main p {
     transform: translateX(20px);
+} */
+.grid {
+  display: grid;
+  align-items: start;
+  grid-template-columns: 20rem 1fr;
+  
 }
-
-
+    
+main {
+  grid-column: 2;
+  margin: 1rem;
+}  
 aside {
-  width: 20rem;
-  position: relative;
+  /* width: 20rem;
+  position:relative ; */
+  grid-column: 1;
+  grid-row: 1;
   text-align: center;
   margin: 1rem;
   background-color: var(--background-color);
   padding: 1rem;
-
-  border: black;
-  
+  border:1px solid black;
 }
 aside h2{
     color:var(--heading-text-color);
@@ -55,6 +89,7 @@ aside img {
     height: auto;
 }
 main img {
+    display: block;
     width: 150px;     
     height: auto;
     border: 1px solid black;
@@ -80,19 +115,6 @@ footer {
     border: 1px solid rgb(0 0 0 / 10%);
     background-color: var(--background-color);
     color: #000;
-}
-:root {
-  --primary-color: #3498db;
-  --secondary-color: #2ecc71;
-  --font-size-large: 24px;
-  --margin-standard: 16px;
-  --background-color:rgb(138, 141, 100);
-  --heading-text-color:darkgreen;
-  --image-border:1px solid rgb(0 0 0 / 0.2); 
-  --image-box-shadow:0 0 30px gray;
-  --text-color:black;
-  --href-color:white;
-  
 }
 
 
