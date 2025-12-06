@@ -108,13 +108,13 @@ article p {
   color: white;
   transform: translateY(-15px);
 }
-
+/* 
  .section1, .section2 {
   background-color:none;
   inset: 0;
   text-align: center;
   
-}
+} */
 .box {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr ;
