@@ -48,7 +48,7 @@ body {
   font-family: var(--body-font);
   color: var(--accent1-color);
 }
-header, main, footer, .section1, .section2{
+header, main, footer, section{
   width: 840px;
   margin: 0 auto;
 }
@@ -99,6 +99,10 @@ nav, p, article {
   height: auto;
   width: 700px;
 }
+article h2 {
+  color: var(--primary-color);
+  margin-left: 240px;
+}
 
 article p {
   color: white;
@@ -126,18 +130,21 @@ article p {
  
 }
 
-.section1 {
+/* .section1 {
   
   position: relative;
   height: auto;
   display: block;
+} */
+section h2{
+  text-align: center;
 }
-.section2{
+/* .section2{
   height: 130px;
   position: relative;
   top: 10px;
 
-}
+} */
 .box2 {
   display: grid;
   grid-template-columns:  50px 50px 50px 50px 50px;
