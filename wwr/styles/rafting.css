@@ -56,10 +56,9 @@ header, main, footer, section{
 h1 {
   font-family: var(--heading-font);
   color: var(--secondary-color);
-  background-color: none;
+
 }
 .h1 h1 {
-  background-color: none;
   text-align: center;
   color: var(--secondary-color);
 }
