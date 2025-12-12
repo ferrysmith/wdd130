@@ -147,15 +147,18 @@ section h2{
 } */
 .box2 {
   display: grid;
-  grid-template-columns:  50px 50px 50px 50px 50px;
+  grid-template-columns:  50px 50px 50px;
   /* grid-template-rows: 50px 50px 50px 50px 50px; */
   /* gap: 5px; */
   justify-content: space-around;
-  margin-right: 43px;
+  align-items: center;
 }
 .box2 img {
-  width: 100px;
+  width: 130px;
    right: 50px;
+}
+figcaption{
+  width: 200px;
 }
 .cap{
   display: grid;
@@ -168,4 +171,56 @@ footer{
 }
 footer a{
    margin-left: 30px;
+}
+.first {
+  display: grid;
+  grid-template-columns: 300px 500px;
+  gap: 100px;
+
+}
+iframe {
+  width:300px;
+  height:250px;
+}
+.item{
+  display:grid ;
+  grid-template-columns: 100px 300px;
+  /* gap: 7px; */
+  row-gap: 10px;
+  
+}
+input[type="radio"]{
+  position: relative;
+  size: 10px;
+   
+
+}
+.item2{
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  justify-content: right;
+  row-gap: 20px;
+}
+.item2 label {
+  margin-left: 10px;
+}
+.item4 {
+  text-wrap: none;
+  width: 400px;
+}
+button {
+  width: 300px;
+  height: 20px;
+}
+textarea {
+  width: 300px;
+}
+.item4 label {
+  margin-left: 10px;
+}
+h4 {
+  text-align: center;
+}
+form {
+  padding-top: 20px;
 }
