@@ -55,8 +55,13 @@ header, main, footer, section{
 
 h1 {
   font-family: var(--heading-font);
-  color: var(--primary-color);
-  background-color: var(--secondary-color);
+  color: var(--secondary-color);
+  background-color: none;
+}
+.h1 h1 {
+  background-color: none;
+  text-align: center;
+  color: var(--secondary-color);
 }
 nav, p, article {
   margin: 16px;
@@ -181,6 +186,7 @@ footer a{
 iframe {
   width:300px;
   height:250px;
+  border: 0;
 }
 .item{
   display:grid ;
@@ -189,12 +195,12 @@ iframe {
   row-gap: 10px;
   
 }
-input[type="radio"]{
+/* input[type="radio"]{
   position: relative;
   size: 10px;
    
 
-}
+} */
 .item2{
   display: grid;
   grid-template-columns: 20px 1fr;
@@ -205,7 +211,7 @@ input[type="radio"]{
   margin-left: 10px;
 }
 .item4 {
-  text-wrap: none;
+
   width: 400px;
 }
 button {
