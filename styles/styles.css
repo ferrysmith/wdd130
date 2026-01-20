@@ -36,10 +36,10 @@ nav {
 nav a {
     color: var(--href-color);
     display: block;
-    padding: 20p;
+    padding: 20px;
     text-decoration: none;
     /* font-size: 0.2rem; */
-    font-weight: 700px;
+    /* font-weight: 700px; */
 }
 h1 {
     color: var(--heading-text-color);
